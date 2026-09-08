@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 200" role="img" aria-label="Placeholder portrait">
+  <rect width="168" height="200" fill="#eceae3"/>
+  <circle cx="84" cy="78" r="34" fill="#cfccc1"/>
+  <path d="M30 188c0-34 24-58 54-58s54 24 54 58z" fill="#cfccc1"/>
+  <rect x="0" y="197" width="168" height="3" fill="#7a2431"/>
+  <text x="84" y="158" font-family="'Public Sans', sans-serif" font-size="9"
+        letter-spacing="1.5" fill="#8a8779" text-anchor="middle">ADD&#160;PHOTO</text>
+</svg>
