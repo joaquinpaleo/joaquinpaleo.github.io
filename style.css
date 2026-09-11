@@ -261,6 +261,7 @@ details.abs .abstract { margin-top: 0.5rem; }
   color: var(--heading);
   margin: 1.8rem 0 0.3rem;
 }
+.subhead.accent { color: var(--accent); }
 .courses + p { margin-top: 1.6rem; }
 .course {
   display: flex;
