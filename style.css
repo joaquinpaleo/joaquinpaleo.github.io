@@ -66,7 +66,8 @@ body {
 .site-name {
   font-family: "Newsreader", Georgia, serif;
   font-weight: 500;
-  font-size: 1.55rem;
+  font-size: 2.1rem;
+  line-height: 1.15;
   letter-spacing: 0.01em;
   margin: 0;
 }
@@ -144,20 +145,7 @@ strong { font-weight: 600; }
   display: block;
 }
 
-.intro-body h1 {
-  font-family: "Newsreader", Georgia, serif;
-  font-weight: 500;
-  font-size: 1.9rem;
-  line-height: 1.15;
-  margin: 0 0 0.2rem;
-  color: var(--heading);
-}
-
-.intro-body .role {
-  color: var(--muted);
-  font-size: 0.98rem;
-  margin: 0 0 1.1rem;
-}
+.intro-body > p:first-child { margin-top: 0; }
 
 /* Inline link row (CV / Scholar / Email) */
 .linkbar {
@@ -330,10 +318,10 @@ main { animation: rise 0.5s ease both; }
 
 @media (max-width: 620px) {
   body { font-size: 1.02rem; }
-  .masthead { flex-direction: column; align-items: flex-start; }
+  .masthead { flex-direction: column; align-items: center; text-align: center; }   /* phone: name + nav centred in the sticky bar */
   .intro { grid-template-columns: 1fr; gap: 1.1rem; }
   .portrait { width: 72%; max-width: 260px; height: auto; aspect-ratio: 5 / 6; justify-self: center; }   /* phone: centred with side margins */
-  nav.site-nav { gap: 0.9rem; }
+  nav.site-nav { gap: 0.9rem; justify-content: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
