@@ -332,7 +332,7 @@ main { animation: rise 0.5s ease both; }
   body { font-size: 1.02rem; }
   .masthead { flex-direction: column; align-items: flex-start; }
   .intro { grid-template-columns: 1fr; gap: 1.1rem; }
-  .portrait { width: 140px; height: 168px; }
+  .portrait { width: 100%; height: auto; aspect-ratio: 5 / 6; }   /* phone: full content width, centred by the single-column grid */
   nav.site-nav { gap: 0.9rem; }
 }
 
