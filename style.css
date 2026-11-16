@@ -233,6 +233,8 @@ strong { font-weight: 600; }
   white-space: nowrap;
   margin-left: 0.35rem;
 }
+/* "[new draft!]" note after a paper title: the same note, in the accent colour */
+.paper .soon.new { color: var(--accent); }
 
 /* details/summary for collapsible abstracts */
 details.abs { margin: 0.35rem 0 0.55rem; }
